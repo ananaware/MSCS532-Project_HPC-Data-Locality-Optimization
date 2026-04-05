@@ -1,0 +1,18 @@
+Optimization Technique Selected:
+Data Locality Optimization
+
+Why this technique:
+The research paper highlights that inefficient memory access is a major performance issue in HPC systems.
+Data locality optimization improves cache usage by ensuring that data is stored and accessed in contiguous memory locations.
+This reduces memory latency and improves execution speed.
+
+Prototype idea:
+We will compare two implementations:
+1. Non-contiguous access pattern (cache-unfriendly)
+2. Contiguous sequential access (cache-friendly)
+
+Goal:
+Measure execution time difference and show performance improvement using data locality optimization.
+
+Connection to paper:
+The study shows that improving data locality helps in better utilization of hardware resources and reduces execution time.
