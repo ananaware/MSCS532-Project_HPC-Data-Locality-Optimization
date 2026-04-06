@@ -11,6 +11,21 @@ Two approaches were implemented:
 1. Non-contiguous access (random memory access)
 2. Contiguous access (sequential memory access)
 
+## How to Run
+
+Run the main demo:
+python src/data_locality_demo.py
+
+Run benchmark:
+python src/benchmark_runner.py
+
+## Sample Results
+
+Non-contiguous: ~5.5 sec  
+Contiguous: ~0.21 sec  
+
+~25x performance improvement due to data locality.
+
 ## Results
 Benchmark results show that contiguous access is significantly faster due to improved cache utilization.
 
